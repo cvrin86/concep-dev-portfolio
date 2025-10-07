@@ -1,0 +1,106 @@
+[
+    {
+    "id": 1,
+    "title": "Freshly Restaurant",
+    "category": "Site vitrine",
+    "image": "/freshly.png",
+    "description":"Freshly Restaurant est un projet que j'ai développé dans le cadre de ma formation en Développement Web à 3W Academy. À partir d'une maquette fournie, j'ai intégré les versions mobile et desktop d'un site pour un restaurant, en utilisant des animations CSS. Ce projet m'a permis de mettre en pratique mes compétences en HTML et CSS. Le résultat est un site web moderne qui valorise les plats proposés par l'entreprise. ",
+
+    "technologies": ["HTML5","CSS3","Javascript","Node.js"],
+    "link": "https://cvrin86.github.io/freshly_restaurant/index.html",
+    "githubLink": "https://github.com/cvrin86/freshly_restaurant"
+  },
+    {
+    "id": 2,
+    "title": "Archi Design",
+    "category": "Site vitrine",
+    "image": "/archi-design.png",
+        "description": "ArchiDesign est un projet que j'ai développé dans le cadre de ma formation de Developpeur Web à 3W Academy. À partir d'une maquette fournie, j'ai intégré les versions mobile et desktop d'un site vitrine dédié à la vente de meubles pour la maison, en utilisant des animations CSS. Ce projet m'a permis de mettre en pratique mes compétences en HTML et CSS. Le résultat final est un site web moderne qui met en valeur les créations proposées par l'entreprise",
+
+    "technologies": ["HTML5","CSS3"],
+    "link": "https://cvrin86.github.io/archi_design/index.html",
+    "githubLink": "https://github.com/cvrin86/archi_design"
+  },
+      {
+    "id": 3,
+    "title": "Hello World",
+    "category": "Site vitrine",
+    "image": "/helloworld.png",
+        "description": "Hello World est un projet que j'ai développé dans le cadre de ma formation de Developpeur Web à 3W Academy. À partir d'une maquette fournie, j'ai intégré les versions mobile et desktop d'un blog consacré aux voyages à travers le monde, en utilisant des animations CSS. Ce projet m'a permis de mettre en pratique mes compétences en HTML et CSS. Le résultat final est un site web moderne qui raconte les voyages effectués et fait découvrir de nouveaux lieux à visiter.",
+
+    "technologies": ["HTML5","CSS3"],
+    "link": "https://cvrin86.github.io/hello_world/index.html",
+    "githubLink": "https://github.com/cvrin86/hello_world"
+  },
+  {
+    "id": 4,
+    "title": "Hi-Tech",
+    "category": "Site vitrine",
+    "image": "/hitech.png",
+        "description": "HiTech est un projet que j'ai développé dans le cadre de ma formation de Developpeur Web à 3W Academy. À partir d'une maquette fournie, j'ai intégré les versions mobile et desktop d'un site statique dédié à la vente de matériel Hi-Tech, en utilisant des animations CSS et Bootstrap pour la mise en forme. Ce projet m'a permis de mettre en pratique mes compétences en HTML, CSS et Bootstrap. Le résultat final est un site web moderne qui valorise les produits de l'entreprise .",
+    "technologies": ["HTML", "CSS", "BOOTSTRAP"],
+        "link": "https://cvrin86.github.io/hi_tech/",
+    "githubLink": "https://github.com/cvrin86/hi_tech"
+  },
+
+    {
+    "id": 5,
+    "title": "Just Watch Movie",
+    "category": "Application web",
+    "image": "/jwmovie.png",
+        "description": "Just Watch Movie est un projet que j'ai développé dans le cadre de la formation de Concepteur Developpeur  Web à Doranco. Il s'agit d'une application pour consulter des films via l'API The Movie Database (TMDb). Après la phase de développement, l'application a été déployée sur la plateforme Vercel, garantissant une navigation sécurisée en HTTPS. La clé d'API a été stockée dans un fichier de configuration non exposé dans le dépôt public GitHub, assurant la protection des informations sensibles et la confidentialité des échanges entre client et serveur.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+        "link": "https://movie-api-project-doranco.vercel.app/",
+    "githubLink": "https://github.com/cvrin86/movieAPI_project_doranco"
+  },
+ 
+ 
+  {
+    "id": 7,
+    "title": "Discribe Photo",
+    "category": "Application web",
+    "image": "/discribe-photo.png",
+    "description": "Discribe Photo est une application web, un blog communautaire de partage de photographies où chacun peut publier ses souvenirs de vacances en décrivant les lieux et les endroits visités. L’application permet la création d’un compte utilisateur, la publication, la consultation et la gestion de photos au sein d’une interface moderne et responsive. Les données sont stockées dans une base de données MongoDB hébergée dans le cloud, garantissant à la fois la disponibilité, la performance et la sécurité des informations.",
+    "technologies": ["Node Js", "Next Js", "Redux","CSS","MongoDB"],
+    "link": "https://blogphoto-client.vercel.app/",
+    "githubLink": "https://github.com/cvrin86/blogphoto_client"
+  },
+    {
+    "id": 8,
+    "title": "Tech News",
+    "category": "Application web",
+    "image": "/tech-news.png",
+    
+  "description": "Tech News App est une application web permettant de consulter les dernières actualités technologiques issues de TechCrunch. Les utilisateurs peuvent créer un compte, se connecter, consulter les news, et sauvegarder leurs articles favoris grâce à un système de bookmarks. L’interface est moderne, responsive et propose un chargement progressif des articles lors du scroll. Les données utilisateurs et bookmarks sont stockées dans une base MongoDB hébergée dans le cloud, assurant disponibilité et sécurité.",
+  "technologies": ["Node.js", "Next.js", "Redux","CSS","MongoDB"],
+ 
+    "link": "https://tech-news-frontend-t127.vercel.app/",
+    "githubLink": "https://github.com/cvrin86/tech_news_frontend"
+  },
+    {
+    "id": 9,
+    "title": "Ulearnvite Academy",
+    "category": "Application web",
+    "image": "/ulearnvite.png",
+
+  "description": "Ulearnvite est une plateforme web d’e-learning dédiée au développement web. Les utilisateurs peuvent s’inscrire, se connecter, parcourir un catalogue de cours, suivre des leçons, et gérer leur progression. L’administration permet la gestion des utilisateurs, des cours et du contenu. L’interface est moderne, responsive et propose une navigation intuitive. Les données sont stockées dans une base MySQL hébergée sur le cloud sur Railway, assurant disponibilité et sécurité. Ce projet a été initié et développé dans le cadre d’un stage de formation et il est en développement continu.",
+  "technologies": ["Java", "Spring Boot", "Thymeleaf", "Bootstrap", "MySQL"],
+
+    "link": "https://ulearnvite-platform.onrender.com",
+    "githubLink": "https://github.com/cvrin86/ulearnvite_app"
+  },
+   {
+    "id": 10,
+    "title": "Sunetpods - Plateforme podcasts",
+    "category": "Application web",
+    "image": "/sunetpods.png",
+
+  "description": "Sunetpods est une application web  de creation de podcasts pour les enfants. Les utilisateurs peuvent s’inscrire, se connecter, écouter et créer leurs propre podcasts. L’administration permet la gestion des utilisateurs et  des podcasts. L’interface est moderne, responsive et propose une navigation intuitive. Les données sont stockées dans une base MySQL hébergée sur un serveur privé chez OVH, assurant disponibilité et sécurité. Ce projet a été initié et développé dans le cadre  de la formation de concepteur developpeur et c est un projet de fin de formation afin d'obtenir le diplome.  et il est en développement continu.",
+  "technologies": ["Java", "Spring Boot", "React","Redux", "Bootstrap", "MySQL","MongoDB"],
+
+    "link": "https://sunetpods.fr",
+    "githubLink": "https://github.com/cvrin86/sunetpods_app"
+  }
+ 
+]
+

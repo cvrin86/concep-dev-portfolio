@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "icon": "bi-code-slash",
+    "title": "Développement d'applications web Java & JavaScript",
+    "description": "Conception et développement d’applications web robustes et évolutives en Java (Spring Boot) et JavaScript (React, Node.js).",
+    "features": [
+      "Architecture MVC avec Spring Boot",
+      "Développement d’APIs REST sécurisées",
+      "Interfaces dynamiques avec React",
+      "Gestion d’état avec Redux ou Context API",
+      "Connexion aux bases de données MySQL/MongoDB"
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "bi-diagram-3",
+    "title": "Architecture logicielle & Conception orientée objet",
+    "description": "Mise en place de solutions logicielles modulaires, testables et maintenables selon les principes SOLID et les design patterns.",
+    "features": [
+      "Analyse des besoins et modélisation UML",
+      "Utilisation des design patterns (Factory, Singleton, etc.)",
+      "Gestion des dépendances avec Maven/Gradle",
+      "Tests unitaires et d’intégration (JUnit, Mockito)",
+      "Documentation technique claire et structurée"
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "bi-terminal",
+    "title": "Développement Fullstack moderne",
+    "description": "Développement d’applications fullstack combinant Java côté serveur et JavaScript côté client pour une expérience fluide et performante.",
+    "features": [
+      "Backend en Java Spring Boot ou Node.js Express",
+      "Frontend en React avec routing, hooks et composants personnalisés",
+      "Appels API sécurisés avec authentification JWT",
+      "CI/CD avec GitHub Actions",
+      "Déploiement sur Docker "
+    ]
+  },
+  {
+    "id": 4,
+    "icon": "bi-hdd-network",
+    "title": "Gestion et intégration de bases de données",
+    "description": "Conception et intégration de bases de données relationnelles et NoSQL dans les projets web Java/JavaScript.",
+    "features": [
+      "Modélisation des données (MCD) ",
+      "Requêtes SQL optimisées (MySQL)",
+      "Intégration avec MongoDB",
+      "ORM avec Hibernate ou Spring Data JPA"
+    ]
+  },
+  {
+    "id": 5,
+    "icon": "bi-shield-lock",
+    "title": "Sécurité des applications web",
+    "description": "Implémentation des meilleures pratiques de sécurité dans les applications web pour garantir la confidentialité et l’intégrité des données.",
+    "features": [
+      "Gestion d’authentification et d’autorisation (JWT, OAuth2)",
+      "Sécurisation des API REST",
+      "Protection contre les attaques XSS, CSRF",
+      "Chiffrement des mots de passe (BCrypt)",
+      "Audit et journalisation des accès"
+    ]
+  },
+  {
+    "id": 6,
+    "icon": "bi-phone",
+    "title": "Responsive Design",
+    "description": "Création d’interfaces adaptatives grâce aux technologies HTML5 et CSS3, assurant une compatibilité optimale sur tous les écrans (mobile, tablette, desktop). Utilisation du framework Bootstrap pour accélérer le développement et garantir une mise en page cohérente et responsive.",
+    "features":[]
+  },
+   {
+    "id":7,
+    "icon": "bi-kanban",
+    "title": "GESTION DE PROJET",
+    "description": "Conception, rédaction de documentation, maintenance, support utilisateur, travail en équipe",
+    "features": ["Git", "Bugsnag", "Zammad", "Slack"]
+  }
+]

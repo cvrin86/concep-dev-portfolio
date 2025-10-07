@@ -1,0 +1,114 @@
+{
+
+    "Environment":[
+          {
+            "name": "Windows",
+            "icon": "/windows-icon.png"
+        },
+          {
+            "name": "Ubuntu",
+            "icon": "/linux-icon.png"
+        },
+          {
+            "name": "VS Code",
+            "icon": "/vscode-icon.png"
+        },
+         {
+            "name": "Git",
+            "icon": "/git-icon.png"
+        },
+        {
+            "name": "GitHub",
+            "icon": "/github-icon.png"
+        }
+
+
+    ],
+    "Frontend": [
+        {
+            "name": "HTML",
+            "icon": "/html-icon.png"
+        },
+        {
+            "name": "CSS",
+            "icon": "/css.png"
+        },
+        {
+            "name": "Sass/Scss",
+            "icon": "/sass-icon.png"
+        },
+        {
+            "name": "Bootstrap",
+            "icon": "/bootstrap-icon.png"
+        },
+        {
+            "name": "JavaScript",
+            "icon": "/js-icon.png"
+        },
+        {
+            "name": "React",
+            "icon": "/react-icon.png"
+        }
+    ],
+    "Backend": [
+
+        {
+            "name": "Java",
+            "icon": "/java-icon.png"
+        },  {
+            "name": "Spring Boot",
+            "icon": "/springboot-icon.png"
+        },
+        {
+            "name": "Node.js",
+            "icon": "/node-icon.png"
+        },
+        {
+            "name": "Express.js",
+            "icon": "/express-icon.png"
+        },
+       
+        {
+            "name": "Mongoose",
+            "icon": "/mongoose-icon.png"
+        }
+    ],
+    "Databases":[
+
+        {
+            "name": "MySQL",
+            "icon": "/mysql-icon.png"
+        },
+           {
+            "name": "MongoDB",
+            "icon": "/mongodb-icon.png"
+        }
+    ],
+    
+    "Others": [
+           {
+            "name": "Docker",
+            "icon": "/docker-icon.png"
+        },
+      
+        {
+            "name": "Looping",
+            "icon": "/looping-icon.png"
+        },
+           {
+            "name": "Star UML",
+            "icon": "/staruml-icon.png"
+        },
+        {
+            "name": "Trello",
+            "icon": "/trello-icon.png"
+        },
+        {
+            "name": "Figma",
+            "icon": "/figma-icon.png"
+        }, {
+            "name": "Canva",
+            "icon": "/canva-icon.png"
+        }
+    ]
+}
