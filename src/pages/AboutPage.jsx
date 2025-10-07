@@ -141,7 +141,7 @@ const education = [
           <div className="row align-items-center">
             <div className="col-lg-5 mb-5 mb-lg-0 position-relative">
               <img
-                src="/src/assets/images/profil.jpg"
+                src="/profil.jpg"
                 alt="Photo professionnelle"
                 className="img-fluid rounded-3 shadow-lg"
               />

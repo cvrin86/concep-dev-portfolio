@@ -20,7 +20,7 @@ export const Footer = () => {
                         <div className='col-lg-4 col-md-6 footer-container'>
                                       <Link to="/" className="navbar-brand d-flex align-items-center fw-bold fs-4">
                               <img 
-                                src="/src/assets/images/logo_portfolio.png" 
+                                src="/logo_portfolio.png" 
                                 alt="logo portfolio" 
                                 className = "logo me-4"
                                

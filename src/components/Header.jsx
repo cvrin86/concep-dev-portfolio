@@ -34,7 +34,7 @@ export const Header = () => {
           {/* Logo / marque, lien vers la page d'accueil */}
           <Link to="/" className="navbar-brand d-flex align-items-center fw-bold fs-4">
   <img 
-    src="/src/assets/images/logo_portfolio.png" 
+    src="/logo_portfolio.png" 
     alt="logo portfolio" 
     className = "logo me-4"
    

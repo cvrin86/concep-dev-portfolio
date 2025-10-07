@@ -28,7 +28,7 @@ export const HomePage = () => {
   <div
     className="position-absolute top-0 start-0 w-100 h-100 "
     style={{
-      backgroundImage: `url(${heroBg})`,
+      backgroundImage:"url(/hero-bgd.png)",
       backgroundSize: "cover",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
@@ -82,7 +82,7 @@ export const HomePage = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-5 mb-lg-0 ">
-              <img src="/src/assets/images/profil.jpg" alt="Développeur professionnel" className=" rounded-3 shadow-lg " style={{maxWidth:400}} />
+              <img src="/profil.jpg" alt="Développeur professionnel" className=" rounded-3 shadow-lg " style={{maxWidth:400}} />
             </div>
             <div className="col-lg-6  ps-lg-5">
               <h2 className='mb-4'>À Propos de Moi</h2>
