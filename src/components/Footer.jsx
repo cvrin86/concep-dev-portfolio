@@ -92,7 +92,7 @@ export const Footer = () => {
                                     <a href="mailto:cristinavrincedev@outlook.fr" target="_blank" rel="noopener noreferrer" style={{marginLeft:'7px'}}>cristinavrincedev@outlook.fr</a>
                                 </li>
                                  <li className="mb-3  d-flex align-items-center">
-                                    <Linkedin  />
+                                    <Linkedin className="me-2 " width={24} height={24} />
                                     <a href="https://www.linkedin.com/in/cvranceanu/" target="_blank" rel="noopener noreferrer" style={{marginLeft:'7px'}}>https://www.linkedin.com/in/cvranceanu/</a>
                                 </li>
                                 <li className="mb-3  d-flex align-items-center">
