@@ -91,10 +91,10 @@ export const Footer = () => {
                                     <Mail  />
                                     <a href="mailto:cristinavrincedev@outlook.fr" target="_blank" rel="noopener noreferrer" style={{marginLeft:'7px'}}>cristinavrincedev@outlook.fr</a>
                                 </li>
-                                 <li className="mb-3  d-flex align-items-center">
+                                 {/* <li className="mb-3  d-flex align-items-center">
                                     <Linkedin className="me-2 " width={24} height={24} />
                                     <a href="https://www.linkedin.com/in/cvranceanu/" target="_blank" rel="noopener noreferrer" style={{marginLeft:'7px'}}>https://www.linkedin.com/in/cvranceanu/</a>
-                                </li>
+                                </li> */}
                                 <li className="mb-3  d-flex align-items-center">
                                     <GitHub  />
                                     <a href="https://github.com/cvrin86" target="_blank" rel="noopener noreferrer" style={{marginLeft:'7px'}}>https://github.com/cvrin86</a>
