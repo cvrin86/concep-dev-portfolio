@@ -39,10 +39,10 @@ export const Footer = () => {
                             </p>
 
                             <div className='  d-flex gap-3 mt-4'>
-                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" >
+                                <a href="https://github.com/cvrin86" target="_blank" rel="noopener noreferrer" >
                                     <GitHub className="me-2 " width={24} height={24} />
                                 </a>
-                                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" >
+                                <a href="https://www.linkedin.com/in/cvranceanu/" target="_blank" rel="noopener noreferrer" >
                                     <Linkedin className="me-2 " width={24} height={24} />
                                 </a>
                               
@@ -89,15 +89,15 @@ export const Footer = () => {
                             <ul className='list-unstyled'>
                                 <li className="mb-3  d-flex align-items-center">
                                     <Mail  />
-                                    <a href="mailto:cristinavrincedev@outlook.fr" style={{marginLeft:'7px'}}>cristinavrincedev@outlook.fr</a>
+                                    <a href="mailto:cristinavrincedev@outlook.fr" target="_blank" rel="noopener noreferrer" style={{marginLeft:'7px'}}>cristinavrincedev@outlook.fr</a>
                                 </li>
                                  <li className="mb-3  d-flex align-items-center">
                                     <Linkedin  />
-                                    <a href="https://www.linkedin.com/in/cristina-vrinceanu-61a0402b6/" style={{marginLeft:'7px'}}>https://www.linkedin.com/in/cristina-vrinceanu-61a0402b6/</a>
+                                    <a href="https://www.linkedin.com/in/cvranceanu/" target="_blank" rel="noopener noreferrer" style={{marginLeft:'7px'}}>https://www.linkedin.com/in/cvranceanu/</a>
                                 </li>
                                 <li className="mb-3  d-flex align-items-center">
-                                    <Mail  />
-                                    <a href="https://github.com/cvrin86" style={{marginLeft:'7px'}}>https://github.com/cvrin86</a>
+                                    <GitHub  />
+                                    <a href="https://github.com/cvrin86" target="_blank" rel="noopener noreferrer" style={{marginLeft:'7px'}}>https://github.com/cvrin86</a>
                                 </li>
                                 {/* <li className="mb-3 d-flex align-items-center">
                                     <Phone />
