@@ -89,7 +89,15 @@ export const Footer = () => {
                             <ul className='list-unstyled'>
                                 <li className="mb-3  d-flex align-items-center">
                                     <Mail  />
-                                    <a href="mailto:cristinavdev@outlook.com" style={{marginLeft:'7px'}}>cristinavdev@outlook.com</a>
+                                    <a href="mailto:cristinavrincedev@outlook.fr" style={{marginLeft:'7px'}}>cristinavrincedev@outlook.fr</a>
+                                </li>
+                                 <li className="mb-3  d-flex align-items-center">
+                                    <Linkedin  />
+                                    <a href="https://www.linkedin.com/in/cristina-vrinceanu-61a0402b6/" style={{marginLeft:'7px'}}>https://www.linkedin.com/in/cristina-vrinceanu-61a0402b6/</a>
+                                </li>
+                                <li className="mb-3  d-flex align-items-center">
+                                    <Mail  />
+                                    <a href="https://github.com/cvrin86" style={{marginLeft:'7px'}}>https://github.com/cvrin86</a>
                                 </li>
                                 {/* <li className="mb-3 d-flex align-items-center">
                                     <Phone />

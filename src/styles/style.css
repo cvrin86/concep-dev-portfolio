@@ -99,6 +99,9 @@ section{
 footer,header{
      background-color: #0c3847;
 }
+footer{
+  margin-top: 50px;
+}
 
 .bg-cta{
     background-color: #0c384d80;

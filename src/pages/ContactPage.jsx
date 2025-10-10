@@ -18,7 +18,7 @@ export default function ContactPage() {
         <ContactCard
           icon={<Mail className="icon" />}
           label="E-mail"
-          link="mailto:cristinavdev@outlook.com"
+          link="mailto:cristinavrincedev@outlook.fr"
 
         />
         <ContactCard
