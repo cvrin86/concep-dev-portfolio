@@ -3,6 +3,7 @@
     "id": 1,
     "title": "Freshly Restaurant",
     "category": "Site vitrine",
+    "image": "/freshly.png",
     "images": [
       "/freshly.png",
       "/freshly-1.png",
