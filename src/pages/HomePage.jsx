@@ -122,7 +122,7 @@ Mon objectif est de progresser en contribuant à la conception et au développem
         <div className="container">
           <div className="row justify-content-center mb-5">
             <div className="col-lg-6 text-center">
-              <h2>Mon Expertise</h2>
+              <h2>Mes Compétences</h2>
               <p>Une expertise spécialisée pour donner vie à vos visions digitales</p>
             </div>
           </div>
