@@ -21,7 +21,7 @@ const ProjectDetail = () => {
       </button>
 
       {/* 🧠 HEADER */}
-      <h1 className="text-center text-warning">{project.title}</h1>
+      <h1 className=" text-warning">{project.title}</h1>
       <p className="text-center text-muted">{project.category}</p>
 
       {/* 🖼️ IMAGES */}
@@ -34,7 +34,7 @@ const ProjectDetail = () => {
               src={img}
               alt={project.title}
               style={{
-                width: "300px",
+                width: "500px",
                 borderRadius: "12px",
                 boxShadow: "0 4px 20px rgba(0,0,0,0.3)"
               }}
