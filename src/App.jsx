@@ -11,7 +11,7 @@ import { Footer } from './components/Footer';
 import BackgroundParticles from './components/BackgroundParticles';
 import LegalNotice from './pages/LegalNotice';
 
-import ProjectDetail from './pages/ProjectDetails';
+import ProjectDetail from './pages/ProjectDetail';
 
 function App() {
 

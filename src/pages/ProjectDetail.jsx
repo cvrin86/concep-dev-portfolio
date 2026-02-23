@@ -15,14 +15,18 @@ const ProjectDetail = () => {
       {/* 🔙 Bouton retour */}
       <button 
         onClick={() => navigate("/portfolio")}
-        className="btn btn-dark mb-4"
+        className="btn btn-dark m-4"
       >
         ← Retour aux projets
       </button>
 
       {/* 🧠 HEADER */}
-      <h1 className="text-center text-white my-4">{project.title}</h1>
-      <p className="text-center text-muted">{project.category}</p>
+      <div className="text-center py-5 mt-5">
+  <h1 className="text-white fw-bold mb-3">{project.title}</h1>
+  <p className="text-white-50 fs-5">{project.category}</p>
+</div>
+
+<hr style={{ width: "80px", margin: "10px auto", borderColor: "#ffc107" }} />
 
    
      {/* 🖼️ IMAGE PRINCIPALE */}
@@ -31,7 +35,7 @@ const ProjectDetail = () => {
     src={project.images?.[0] || project.image}
     alt={project.title}
     className="img-fluid rounded shadow"
-    style={{ maxWidth: "700px" }}
+    style={{ maxWidth: "500px" }}
   />
 </div>
 
@@ -44,7 +48,7 @@ const ProjectDetail = () => {
         src={img}
         alt={`screenshot-${index}`}
         className="rounded shadow"
-        style={{ width: "200px", cursor: "pointer" }}
+        style={{ width: "300px", cursor: "pointer" }}
       />
     ))}
   </div>
@@ -52,13 +56,13 @@ const ProjectDetail = () => {
 
       {/* 📝 DESCRIPTION */}
       <section className="mb-5">
-        <h3 className="text-warning">Présentation</h3>
+        <h3 className="text-white">Présentation</h3>
         <p>{project.description}</p>
       </section>
 
       {/* ⚙️ STACK */}
       <section className="mb-5">
-        <h3 className="text-warning">Technologies utilisées</h3>
+        <h3 className="text-white">Technologies utilisées</h3>
         <ul>
           {project.technologies.map((tech, i) => (
             <li key={i}>{tech}</li>
@@ -68,7 +72,7 @@ const ProjectDetail = () => {
 
       {/* 🔗 LIENS */}
       <section className="mb-5">
-        <h3 className="text-warning">Liens</h3>
+        <h3 className="text-white">Liens</h3>
 
         <a 
           href={project.link} 
