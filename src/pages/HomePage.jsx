@@ -46,7 +46,7 @@ export const HomePage = () => {
           Bonjour, <br />
           Je suis Cristina{" "}
           <strong  className='text-uppercase ' style={{ color: "#5598b8" }}><br/>
-            Conceptrice et Développeuse d'applications <span className=''>Java & Javascript</span>
+            Conceptrice et Développeuse d'applications <span className='text-white'>Java & Javascript</span>
             
           </strong>
         </p>
