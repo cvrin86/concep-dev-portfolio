@@ -15,18 +15,18 @@ const ProjectDetail = () => {
       {/* 🔙 Bouton retour */}
       <button 
         onClick={() => navigate("/portfolio")}
-        className="btn btn-dark m-4"
+        className="btn btn-dark mx-4"
       >
         ← Retour aux projets
       </button>
 
       {/* 🧠 HEADER */}
-      <div className="text-center py-5 mt-5">
-  <h1 className="text-white fw-bold mb-3">{project.title}</h1>
+      <div className="text-center py-3 mt-3">
+  <h1 className="text-white fw-bold mb-2">{project.title}</h1>
   <p className="text-white-50 fs-5">{project.category}</p>
 </div>
 
-<hr style={{ width: "80px", margin: "10px auto", borderColor: "#ffc107" }} />
+<hr style={{ width: "120px", margin: "10px auto", borderColor: "#ffc107" }} />
 
    
      {/* 🖼️ IMAGE PRINCIPALE */}
@@ -35,7 +35,7 @@ const ProjectDetail = () => {
     src={project.images?.[0] || project.image}
     alt={project.title}
     className="img-fluid rounded shadow"
-    style={{ maxWidth: "500px" }}
+    style={{ maxWidth: "700px" }}
   />
 </div>
 
@@ -48,7 +48,7 @@ const ProjectDetail = () => {
         src={img}
         alt={`screenshot-${index}`}
         className="rounded shadow"
-        style={{ width: "300px", cursor: "pointer" }}
+        style={{ width: "200px", cursor: "pointer" }}
       />
     ))}
   </div>
