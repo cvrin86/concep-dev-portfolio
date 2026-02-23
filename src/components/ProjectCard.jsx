@@ -51,15 +51,14 @@ const ProjectCard = ({ project, showDescription = false, showTechnologies = fals
 
         {/* Overlay avec icônes au survol */}
         <div className="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center gap-3">
-          {link && (
-            <a 
-            href={link} 
-              target="_blank"
-              rel="noopener noreferrer"
-            className="btn btn-light rounded-circle shadow project-link" title="Voir le projet">
-              <ExternalLink size={40} />
-            </a>
-          )}
+        {link && (
+  <Link 
+    to={`/project/${project.id}`}
+    className="btn btn-light rounded-circle shadow project-link"
+  >
+    <ExternalLink size={40} />
+  </Link>
+)}
           {githubLink && (
             <a
               href={githubLink}

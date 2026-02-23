@@ -11,6 +11,8 @@ import { Footer } from './components/Footer';
 import BackgroundParticles from './components/BackgroundParticles';
 import LegalNotice from './pages/LegalNotice';
 
+import ProjectDetail from './pages/PageDetails';
+
 function App() {
 
 
@@ -24,9 +26,7 @@ function App() {
       
 
       <BackgroundParticles/>
-      <button onClick={() => window.history.back()}>
-  ← Retour aux projets
-</button>
+      
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
@@ -34,6 +34,7 @@ function App() {
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/legal-notice" element={<LegalNotice/>}/>
+          <Route path="/project/:id" element={<PageDetails/>}/>
         </Routes>
 
 
