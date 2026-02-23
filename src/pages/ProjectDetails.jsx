@@ -21,7 +21,7 @@ const ProjectDetail = () => {
       </button>
 
       {/* 🧠 HEADER */}
-      <h1 className=" text-warning">{project.title}</h1>
+      <h1 className="text-center text-white my-4">{project.title}</h1>
       <p className="text-center text-muted">{project.category}</p>
 
       {/* 🖼️ IMAGES */}
