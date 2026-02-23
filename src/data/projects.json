@@ -4,13 +4,7 @@
     "title": "Freshly Restaurant",
     "category": "Site vitrine",
     "image": "/freshly.png",
-    "images": [
-      "/freshly.png",
-      "/freshly-1.png",
-      "/freshly-2.png"
-
-
-    ],
+ 
     "description":"Freshly Restaurant est un projet que j'ai développé dans le cadre de ma formation en Développement Web à 3W Academy. À partir d'une maquette fournie, j'ai intégré les versions mobile et desktop d'un site pour un restaurant, en utilisant des animations CSS. Ce projet m'a permis de mettre en pratique mes compétences en HTML et CSS. Le résultat est un site web moderne qui valorise les plats proposés par l'entreprise. ",
 
     "technologies": ["HTML5","CSS3","Javascript","Node.js"],

@@ -15,7 +15,7 @@ const ProjectDetail = () => {
       {/* 🔙 Bouton retour */}
       <button 
         onClick={() => navigate("/portfolio")}
-        className="btn btn-dark mx-4"
+        className="btn btn-dark my-5"
       >
         ← Retour aux projets
       </button>
