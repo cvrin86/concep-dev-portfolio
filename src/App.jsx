@@ -24,6 +24,9 @@ function App() {
       
 
       <BackgroundParticles/>
+      <button onClick={() => window.history.back()}>
+  ← Retour aux projets
+</button>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />

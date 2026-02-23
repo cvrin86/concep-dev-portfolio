@@ -44,7 +44,7 @@ const experiences = [
     id: 5,
     position: 'Archiviste',
     company: 'S.C Stefadina Comserv SRL, Roumanie',
-    period: '2008 - 2012',
+    period: '2008 - 2013',
     description: "Gestion de projets documentaires, organisation et traitement d’archives, priorisation des tâches.",
     type: 'autre'
   }

@@ -13,7 +13,7 @@ const ServicesPage = () => {
         <h2 className=" display-5 fw-bold"
         style={{marginBottom:"10rem"}}
         
-        >Domaines d'expertise</h2>
+        >Domaines de compétences</h2>
 
         {/* --- Version desktop : cercle + ampoule --- */}
         <div

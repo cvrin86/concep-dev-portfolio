@@ -2,7 +2,7 @@
   {
     "id": 1,
     "icon": "bi-code-slash",
-    "title": "Développement d'applications web Java & JavaScript",
+    "title": "Développement d'applications Java & JavaScript",
     "description": "Conception et développement d’applications web robustes et évolutives en Java (Spring Boot) et JavaScript (React, Node.js).",
     "features": [
       "Architecture MVC avec Spring Boot",
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "icon": "bi-diagram-3",
-    "title": "Architecture logicielle & Conception orientée objet",
+    "title": "Architecture logicielle",
     "description": "Mise en place de solutions logicielles modulaires, testables et maintenables selon les principes SOLID et les design patterns.",
     "features": [
       "Analyse des besoins et modélisation UML",
@@ -73,7 +73,7 @@
    {
     "id":7,
     "icon": "bi-kanban",
-    "title": "GESTION DE PROJET",
+    "title": "Gestion de projet",
     "description": "Conception, rédaction de documentation, maintenance, support utilisateur, travail en équipe",
     "features": ["Git", "Bugsnag", "Zammad", "Slack"]
   }
