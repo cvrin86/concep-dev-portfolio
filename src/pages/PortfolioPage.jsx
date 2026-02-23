@@ -51,7 +51,7 @@ export const PortfolioPage = () => {
               <li key={project.id} className="col-md-6 col-lg-4 text-white ">
                 <ProjectCard
                   project={project}
-                  showDescription={true}
+                  showDescription={false}
                   showTechnologies={true}
 
                 />
