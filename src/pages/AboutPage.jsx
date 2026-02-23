@@ -36,7 +36,7 @@ const experiences = [
     id: 4,
     position: 'Serveuse',
     company: 'Restaurant Le Barrault Vins, Paris',
-    period: '2017 - 2018',
+    period: '2015 - 2019',
     description: "Service en salle, prise de commandes, gestion des encaissements.",
     type: 'autre'
   },
