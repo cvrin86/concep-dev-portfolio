@@ -79,7 +79,7 @@ const ProjectCard = ({ project, showDescription = false, showTechnologies = fals
         <h6 className="card-subtitle mb-2 text-muted">{category}</h6>
         <h5 className="card-title"><strong>{title}</strong></h5>
 
-        {/* {showDescription && <p className="card-text">{description}</p>} */}
+        {showDescription && <p className="card-text">{description}</p>}
 
         {showTechnologies && technologies.length > 0 && (
           <ul className="list-unstyled d-flex flex-wrap gap-2 mt-3">
