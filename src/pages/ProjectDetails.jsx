@@ -24,35 +24,31 @@ const ProjectDetail = () => {
       <h1 className="text-center text-white my-4">{project.title}</h1>
       <p className="text-center text-muted">{project.category}</p>
 
-      {/* 🖼️ IMAGES */}
-      <div className="text-center my-4 d-flex flex-wrap justify-content-center gap-3">
-        
-        {project.images ? (
-          project.images.map((img, index) => (
-            <img
-              key={index}
-              src={img}
-              alt={project.title}
-              style={{
-                width: "500px",
-                borderRadius: "12px",
-                boxShadow: "0 4px 20px rgba(0,0,0,0.3)"
-              }}
-            />
-          ))
-        ) : (
-          <img
-            src={project.image}
-            alt={project.title}
-            style={{
-              width: "400px",
-              borderRadius: "12px",
-              boxShadow: "0 4px 20px rgba(0,0,0,0.3)"
-            }}
-          />
-        )}
+   
+     {/* 🖼️ IMAGE PRINCIPALE */}
+<div className="text-center my-4">
+  <img 
+    src={project.images?.[0] || project.image}
+    alt={project.title}
+    className="img-fluid rounded shadow"
+    style={{ maxWidth: "700px" }}
+  />
+</div>
 
-      </div>
+{/* 📸 GALERIE */}
+{project.images && project.images.length > 1 && (
+  <div className="d-flex flex-wrap justify-content-center gap-3 mb-5">
+    {project.images.slice(1).map((img, index) => (
+      <img
+        key={index}
+        src={img}
+        alt={`screenshot-${index}`}
+        className="rounded shadow"
+        style={{ width: "200px", cursor: "pointer" }}
+      />
+    ))}
+  </div>
+)}
 
       {/* 📝 DESCRIPTION */}
       <section className="mb-5">
