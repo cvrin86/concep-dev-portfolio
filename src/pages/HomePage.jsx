@@ -46,7 +46,7 @@ export const HomePage = () => {
           Bonjour, <br />
           Je suis Cristina{" "}
           <strong  className='text-uppercase ' style={{ color: "#5598b8" }}><br/>
-            Conceptrice  && Développeuse d'applications <span className=''>Java</span>
+            Conceptrice et Développeuse d'applications <span className=''>Java & Javascript</span>
             
           </strong>
         </p>
@@ -87,7 +87,7 @@ export const HomePage = () => {
             <div className="col-lg-6  ps-lg-5">
               <h2 className='mb-4'>À Propos de Moi</h2>
               <p className="lead mb-4">
-<strong className="text-info">Conceptrice Développeuse d'applications Java</strong>, 
+<strong className="text-info">Conceptrice Développeuse d'applications </strong>, 
 passionnée par les nouvelles technologies et motivée à construire ma carrière dans le développement logiciel. 
 Curieuse, persévérante et adaptable, j’apprends rapidement de nouveaux frameworks ou librairies et je suis toujours prête à enrichir mes compétences. 
 Je m’intéresse particulièrement au clean code, à la structuration des bases de données, à l’optimisation des performances et à l’expérience utilisateur (UX). 
