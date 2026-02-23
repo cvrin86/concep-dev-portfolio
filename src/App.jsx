@@ -11,7 +11,7 @@ import { Footer } from './components/Footer';
 import BackgroundParticles from './components/BackgroundParticles';
 import LegalNotice from './pages/LegalNotice';
 
-import ProjectDetail from './pages/PageDetails';
+import ProjectDetail from './pages/ProjectDetails';
 
 function App() {
 
@@ -34,7 +34,7 @@ function App() {
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/legal-notice" element={<LegalNotice/>}/>
-          <Route path="/project/:id" element={<PageDetails/>}/>
+          <Route path="/project/:id" element={<ProjectDetail/>}/>
         </Routes>
 
 
